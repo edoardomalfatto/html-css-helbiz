@@ -1,10 +1,71 @@
+body {
+  font-family: Open Sans,Segoe UI,Tahoma,sans-serif;
+  font-size: 10px;
+}
+
+.header_top .container_1000 {
+  height: 10vh;
+  line-height: 10vh;
+}
 .container_1000 {
   width: 1000px;
   margin: 0 auto;
 }
+#logo {
+  vertical-align: middle;
+}
+
+.menu_inline {
+  list-style: none;
+}
+.menu_inline {
+  float:right;
+}
+.menu_inline li {
+  display:inline-block;
+  text-transform: uppercase;
+}
+.menu_inline li a {
+  text-decoration:none;
+  color: black;
+}
+
+/* INIZIO JUMBO */
+
+.jumbo {
+  color: white;
+}
+.jumbo .container_max{
+  position: relative;
+}
 
 .container_max {
   width: 100%;
-  height: 50vh;
-  background-color: red;
+  height: 80vh;
+  background-image:url("../img/hero-bg.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.layover{
+  width: 100%;
+  height: 100%;
+  background-color:rgba(6, 6, 6, 0.49);
+}
+
+.jumbo_contain {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50% , -50%);
+  min-width: 80%;
+  text-align: center;
+  line-height: 10vh;
+}
+
+.jumbo_contain h1 {
+  font-size: 600%;
+}
+.jumbo_contain p {
+  font-size: 300%;
 }
