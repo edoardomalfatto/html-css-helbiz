@@ -69,3 +69,21 @@ body {
 .jumbo_contain p {
   font-size: 300%;
 }
+
+
+/* INIZIO MAIN */
+.section_1 .container {
+  background-color: lightgray;
+}
+
+.section_1 .container .col-lg-6 {
+  text-align: center;
+  line-height: 3vh;
+  padding:20px;
+}
+.section_1 .container .col-lg-6 p a {
+  text-decoration: none;
+}
+.section_1 .container .col-lg-6 img {
+  max-width: 40%;
+}
