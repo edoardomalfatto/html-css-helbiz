@@ -136,7 +136,7 @@ body {
 }
 
 #iphone {
-  width: 80%;
+  width: 100%;
   margin-top: 45vh;
 }
 
@@ -196,9 +196,9 @@ body {
     display: none;
   }
   /* iphone */
-  #iphone {
+  /* #iphone {
    margin-left: 10%;
-  }
+  } */
 
   /* smart */
   .smart_contain {
