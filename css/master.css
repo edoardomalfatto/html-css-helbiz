@@ -11,6 +11,7 @@ body {
   width: 1000px;
   margin: 0 auto;
 }
+
 #logo {
   vertical-align: middle;
 }
@@ -23,11 +24,28 @@ body {
 }
 .menu_inline li {
   display:inline-block;
+  margin-right:10px;
   text-transform: uppercase;
 }
 .menu_inline li a {
   text-decoration:none;
   color: black;
+}
+.menu_inline.lang li {
+
+  /* padding-right: 20px; */
+}
+.menu_inline.lang #ES {
+  padding-right: 10px;
+
+}
+.menu_inline.lang #ITA {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  line-height: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+
 }
 
 /* INIZIO JUMBO */
@@ -43,6 +61,7 @@ body {
   width: 100%;
   height: 80vh;
   background-image:url("../img/hero-bg.jpg");
+  background-position: center;
   background-size: cover;
   background-repeat:no-repeat;
 }
@@ -73,9 +92,13 @@ body {
 
 /* INIZIO MAIN */
 .section_1 .container {
-  background-color: lightgray;
-}
 
+  margin-top: 10vh;
+}
+.padding_container{
+  background-color: rgba(221,221,221,255);
+  padding:20px;
+}
 .section_1 .container .col-lg-6 {
   text-align: center;
   line-height: 3vh;
@@ -83,7 +106,59 @@ body {
 }
 .section_1 .container .col-lg-6 p a {
   text-decoration: none;
+  color: blue;
 }
 .section_1 .container .col-lg-6 img {
   max-width: 40%;
+}
+
+#bike {
+  color: lightgray;
+}
+
+#tizio {
+  height: 80vh;
+  background-image: url("../img/HelbizBanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tizio_text {
+  margin-top: 85vh;
+}
+
+#iphone {
+  width: 80%;
+  margin-top: 45vh;
+}
+
+.smart .bkg_smart {
+  position: relative;
+  height: 46vh;
+  background-image: url(../img/ScooterHelbiz-2400.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.smart_contain {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 30%;
+  padding: 0 30px;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+.smart_contain h2 {
+  font-size: 300%;
+}
+.smart_contain p {
+  font-size: 150%;
+  margin: 10px 0;
+}
+.smart_contain a {
+  font-size: 150%;
+  color: white;
+  text-decoration: none;
 }
